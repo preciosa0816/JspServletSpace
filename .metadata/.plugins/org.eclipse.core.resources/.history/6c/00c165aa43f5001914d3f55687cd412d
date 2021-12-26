@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>    
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>    
+<%-- <fmt:setLocale value="en"/> --%>
+<fmt:bundle basename="resource.Intro">
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회사소개</title>
+</head>
+<body>
+<fmt:message key="TITLE"/><br>
+<fmt:message key="GREETING"/><br>
+<fmt:message key="BODY"/><br>
+<fmt:message key="COMPANY_NAME"/><br>
+
+
+</body>
+</html>
+</fmt:bundle>

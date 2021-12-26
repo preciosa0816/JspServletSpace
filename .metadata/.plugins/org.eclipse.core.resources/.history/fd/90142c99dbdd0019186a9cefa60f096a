@@ -1,0 +1,88 @@
+
+<%@page import="java.util.Calendar"%>
+<%@page import="java.text.SimpleDateFormat"%>
+<%@page import="java.util.Date"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+	Calendar c= Calendar.getInstance();
+	int day= c.get(Calendar.DAY_OF_WEEK);
+	int month=c.get(Calendar.MONTH);
+	int date= c.get(Calendar.DATE);
+	String Day=null;
+	String Month=null;
+	switch(day){
+    case 1:
+       Day = "Sum";
+       break;
+    case 2:
+    	Day = "Mon";
+       break;
+    case 3:
+    	Day = "Tue";
+       break;
+    case 4:
+    	Day = "Wed";
+       break;
+    case 5:
+    	Day = "Thr";
+       break;
+    case 6:
+    	Day = "Fri";
+       break;
+    case 7:
+    	Day = "Sat";
+       break;
+    }
+	switch(month){
+    case 1:
+       Month = "Jan";
+       break;
+    case 2:
+    	 Month = "Feb";
+       break;
+    case 3:
+    	 Month = "Mar";
+       break;
+    case 4:
+    	 Month = "Apr";
+       break;
+    case 5:
+    	 Month = "May";
+       break;
+    case 6:
+    	 Month = "Jun";
+       break;
+    case 7:
+    	 Month = "Jul";
+       break;
+    case 8:
+   	 	Month = "Aug";
+      break;
+    case 9:
+   		 Month = "Sep";
+      break;
+    case 10:
+   		 Month = "Oct";
+      break;
+    case 11:
+   		 Month = "Nov";
+      break;
+    case 12:
+   		 Month = "Dec";
+      break;
+
+    }
+	
+	
+%>
+현재시각: <%=Day %>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\JspServletSpace\Jndi"/>
+		<item value="C:\JspServletSpace\Ch23_File_Upload"/>
+		<item value="C:\JspServletSpace\Ch21_board2_Oracle"/>
+		<item value="C:\JspServletSpace\Ch16_Custom_Tag"/>
+		<item value="C:\JspServletSpace\Ch15_GuestBook_Oracle"/>
+		<item value="C:\JspServletSpace\Ch15_GuestBook"/>
+		<item value="C:\JspServletSpace\Ch21_board"/>
+		<item value="C:\JspServletSpace\Ch14_DB"/>
+	</list>
+	<section name="NewWizardAction">
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="609"/>
+		<item key="DIALOG_Y_ORIGIN" value="274"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

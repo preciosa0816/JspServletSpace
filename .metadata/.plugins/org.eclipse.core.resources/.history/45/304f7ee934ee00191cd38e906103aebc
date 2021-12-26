@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<jsp:useBean id="cloth" class="shop.ClothInfo" scope="request"></jsp:useBean>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+의류 정보가 저장되었습니다
+<hr>
+<h3>제품 개략 정보</h3>
+코드:	<br>
+제품명:<br>
+가격:	<br>
+</body>
+</html>

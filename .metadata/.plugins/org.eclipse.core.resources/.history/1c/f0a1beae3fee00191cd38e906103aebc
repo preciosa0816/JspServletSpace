@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>    
+<jsp:useBean id="book" type="shop.BookInfo" scope="request">
+<jsp:setProperty property="code" value="50001" name="book"/>
+<jsp:setProperty property="name" value="의뢰인" name="book"/>
+<jsp:setProperty property="price" value="9000" name="book"/>
+
+</jsp:useBean>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+책 정보가 저장되었습니다
+<hr>
+<h3>제품 개략 정보</h3>
+코드:	<%=book.getCode() %><br>
+제품명:${book.name }<br>
+가격:<jsp:getProperty property="price" name="book"/>	<br>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>상품 리스트</h1>
+<li>
+<ul><input type="radio" name="car" id="bmw" checked="checked">BMW</ul>
+<ul><input type="radio" name="car" id="sm5">SM5</ul>
+<ul><input type="radio" name="car" id="k7" >K7</ul>
+
+</li>
+</body>
+</html>

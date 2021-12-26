@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="inputProcess.jsp" method="post">
+<p>숫자 2개를 입력하시오<p>
+<p>a: <input type="number">, 
+b: <input type="number" name="b"><p>
+<input type="submit" value="더한 결과 보기">
+</form>
+</body>
+</html>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Ch03_JspBasic/WebContent/p02_script_element/script2.html&apos; to &apos;script2.jsp&apos;" description="Rename resource &apos;script2.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/p02_script_element/script2.html" name="script2.jsp" stamp="1569810857244" updateReferences="true"/>
+</session>

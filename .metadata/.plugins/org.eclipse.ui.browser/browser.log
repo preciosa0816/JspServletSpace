@@ -1,0 +1,29 @@
+
+10월 16, 2019 14:01:06.29 NEW SESSION
+10월 16, 2019 14:01:06.29 [3100:5688:1016/140106.296:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+
+11월 16, 2019 21:49:21.49 NEW SESSION
+11월 16, 2019 21:49:21.50 [19364:4656:1116/214921.489:ERROR:data_type_manager_impl.cc(38)] Bookmarks cryptographer error was encountered: 
+11월 16, 2019 21:49:21.50 [19364:4656:1116/214921.489:ERROR:data_type_manager_impl.cc(38)] Preferences cryptographer error was encountered: 
+11월 16, 2019 21:49:21.51 [19364:4656:1116/214921.489:ERROR:data_type_manager_impl.cc(38)] Passwords cryptographer error was encountered: 
+11월 16, 2019 21:49:21.51 [19364:4656:1116/214921.489:ERROR:data_type_manager_impl.cc(38)] Autofill Profiles cryptographer error was encountered: 
+11월 16, 2019 21:49:21.51 [19364:4656:1116/214921.489:ERROR:data_type_manager_impl.cc(38)] Autofill cryptographer error was encountered: 
+11월 16, 2019 21:49:21.51 [19364:4656:1116/214921.489:ERROR:data_type_manager_impl.cc(38)] Autofill Wallet Metadata cryptographer error was encountered: 
+11월 16, 2019 21:49:21.51 [19364:4656:1116/214921.489:ERROR:data_type_manager_impl.cc(38)] Themes cryptographer error was encountered: 
+11월 16, 2019 21:49:21.53 [19364:4656:1116/214921.489:ERROR:data_type_manager_impl.cc(38)] Typed URLs cryptographer error was encountered: 
+11월 16, 2019 21:49:21.53 [19364:4656:1116/214921.489:ERROR:data_type_manager_impl.cc(38)] Extensions cryptographer error was encountered: 
+11월 16, 2019 21:49:21.54 [19364:4656:1116/214921.489:ERROR:data_type_manager_impl.cc(38)] Search Engines cryptographer error was encountered: 
+11월 16, 2019 21:49:21.54 [19364:4656:1116/214921.489:ERROR:data_type_manager_impl.cc(38)] Sessions cryptographer error was encountered: 
+11월 16, 2019 21:49:21.55 [19364:4656:1116/214921.489:ERROR:data_type_manager_impl.cc(38)] Apps cryptographer error was encountered: 
+11월 16, 2019 21:49:21.56 [19364:4656:1116/214921.489:ERROR:data_type_manager_impl.cc(38)] App settings cryptographer error was encountered: 
+11월 16, 2019 21:49:21.56 [19364:4656:1116/214921.489:ERROR:data_type_manager_impl.cc(38)] Extension settings cryptographer error was encountered: 
+11월 16, 2019 21:49:21.57 [19364:4656:1116/214921.489:ERROR:data_type_manager_impl.cc(38)] Dictionary cryptographer error was encountered: 
+11월 16, 2019 21:49:21.57 [19364:4656:1116/214921.489:ERROR:data_type_manager_impl.cc(38)] Favicon Images cryptographer error was encountered: 
+11월 16, 2019 21:49:21.57 [19364:4656:1116/214921.489:ERROR:data_type_manager_impl.cc(38)] Favicon Tracking cryptographer error was encountered: 
+11월 16, 2019 21:49:21.58 [19364:4656:1116/214921.489:ERROR:data_type_manager_impl.cc(38)] Send Tab To Self cryptographer error was encountered: 
+11월 16, 2019 21:54:48.71 [19364:18548:1116/215448.713:ERROR:socket_stream.cc(218)] Closing stream with result -2
+11월 16, 2019 21:56:02.80 [19364:18548:1116/215602.800:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+11월 16, 2019 21:56:32.43 [19364:18548:1116/215632.432:ERROR:socket_stream.cc(218)] Closing stream with result -2
+11월 16, 2019 21:56:32.44 [19364:18548:1116/215632.441:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -331
+11월 16, 2019 23:55:32.50 [19364:4656:1116/235532.500:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+11월 17, 2019 24:10:40.25 [19364:18548:1117/001040.255:ERROR:socket_stream.cc(218)] Closing stream with result -2

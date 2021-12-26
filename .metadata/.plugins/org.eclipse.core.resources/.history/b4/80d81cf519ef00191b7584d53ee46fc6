@@ -1,0 +1,52 @@
+package servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/CartSaveCookie")
+public class CartSaveCookieServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		doPost(request, response);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		String car = request.getParameter("car");
+		//Cookie cookie = new Cookie("product", car);
+		//response.addCookie(cookie);
+
+		Cookie[] c = request.getCookies();
+		if (c != null && c.length > 0) {
+		for (int i = 0; i < c.length+1; i++) {
+			if (c[i].getName().equals("product")) {
+				Cookie ck = new Cookie("product" + i, car);
+				response.addCookie(ck);
+			}else {
+				Cookie ck = new Cookie("product", car);
+				response.addCookie(ck);
+			}
+		}
+		}
+		request.setCharacterEncoding("UTF-8"); // get방식에서 생략가능
+		response.setContentType("text/html; charset=UTF-8");
+
+		PrintWriter out = response.getWriter();
+		out.println("<html><body>");
+
+		out.println("Product 추가 " + "<br>");
+		out.println("<a href=CartBasketCookie>장바구니보기</a>");
+		out.println("</body></html>");
+
+	}
+
+}

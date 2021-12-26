@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="/CartSaveCookie">
+<h1>상품 리스트</h1>
+
+<input type="radio" name="car" id="bmw" checked="checked">BMW<br>
+<input type="radio" name="car" id="sm5">SM5<br>
+<input type="radio" name="car" id="k7" >K7<br>
+
+</form>
+</body>
+</html>

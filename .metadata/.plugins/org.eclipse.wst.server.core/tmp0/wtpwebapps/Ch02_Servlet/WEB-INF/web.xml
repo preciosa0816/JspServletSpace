@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>Ch02_Servlet</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>LoginWebWml</servlet-name>
+		<servlet-class>LoginServlet_webxml</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginWebWml</servlet-name>
+		<url-pattern>/login1/login_webxml</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>member</servlet-name>
+		<servlet-class>test.memberServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>member</servlet-name>
+		<url-pattern>/memberForm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>sport</servlet-name>
+		<servlet-class>test.sport_servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sport</servlet-name>
+		<url-pattern>/servlet1/sport</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>InitParam</servlet-name>
+		<servlet-class>servletInit.InitParamServlet</servlet-class>
+<!-- 		특정 서블릿 방문자에 한정된 변수 및 값 -->
+		<init-param>
+			<param-name>dirPath</param-name>
+			<param-value>c:\\test</param-value>
+		</init-param>
+		<init-param>
+			<param-name>userid</param-name>
+			<param-value>admin</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InitParam</servlet-name>
+		<url-pattern>/init</url-pattern>
+	</servlet-mapping>
+
+<!-- 	방문자 모두(application)에게 사용 가능한 변수가 값 -->
+	<context-param>
+		<param-name>driver</param-name>
+		<param-value>oracle.jdbc.diver.OracleDriver</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>savePath</param-name>
+		<param-value>D:\\Oracle</param-value>
+	</context-param>
+
+
+
+
+
+
+
+
+
+
+
+</web-app>

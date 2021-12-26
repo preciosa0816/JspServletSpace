@@ -1,0 +1,61 @@
+1573997469170	Copy package
+1573999596915	Rename type 'Article'
+1574000168721	Copy package
+1574000202775	Rename type 'DeleteArticleHandler'
+1574000211169	Rename type 'ModifyArticleHandler'
+1574000218980	Rename type 'ReadArticleHandler'
+1574000228017	Rename type 'WriteArticleHandler'
+1574000237122	Rename type 'ListArticleHandler'
+1574000304586	Copy package
+1574000317392	Copy package
+1574000450873	Rename type 'ArticleNotFoundException'
+1574000548358	Rename type 'ReadArticleService'
+1574000861640	Rename type 'ArticleData'
+1574000893869	Rename type 'ArticleDao'
+1574000970664	Rename type 'menu'
+1574002819224	Rename type 'ListArticleService'
+1574003062274	Rename type 'ArticlePage'
+1574005746877	Copy file
+1574005815284	Delete element
+1574007564700	Copy folder
+1574007632359	Copy file
+1574007650488	Copy file
+1574007698103	Delete element
+1574253118397	Copy file
+1574254084695	Move 'menuManagement.jsp' to 'WebContent'
+1574254229216	Copy compilation unit
+1574254238633	Copy compilation unit
+1574254268507	Move 'menuManagement.jsp' to 'view'
+1574254295820	Copy compilation unit
+1574254340867	Delete element
+1574256421443	Copy compilation unit
+1574256626284	Move 'addmenu.jsp' to 'view'
+1574256633119	Rename resource 'addmenu.jsp'
+1574256644511	Rename resource 'addmenuform.jsp'
+1574256780010	Copy compilation unit
+1574257028336	Copy compilation unit
+1574261403115	Delete element
+1574339273986	Copy file
+1574339498266	Copy compilation unit
+1574339534045	Copy compilation unit
+1574340337896	Copy file
+1574340472261	Copy compilation unit
+1574340491259	Copy compilation unit
+1574340511692	Rename type 'deleteListMenuHandler'
+1574340894452	Copy compilation unit
+1574341002892	Copy compilation unit
+1574342766697	Copy file
+1574343554838	Delete element
+1574343561420	Copy compilation unit
+1574343570305	Rename type 'ModifyArticleHandler'
+1574344659265	Copy compilation unit
+1574344928300	Copy compilation unit
+1574432772597	Copy compilation unit
+1574432779974	Delete element
+1574432958574	Rename type 'ArticleContentNotFoundException'
+1574432966635	Delete element
+1574432970733	Delete element
+1574433112387	Copy compilation unit
+1574433417335	Copy compilation unit
+1574434414770	Copy file
+1574435149033	Delete element

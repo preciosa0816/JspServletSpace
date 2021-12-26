@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CH07_Include_Forward&apos; to &apos;Ch07_Include_Forward&apos;" description="Rename resource &apos;CH07_Include_Forward&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/CH07_Include_Forward" name="Ch07_Include_Forward" stamp="1570762171510" updateReferences="true"/>
+</session>

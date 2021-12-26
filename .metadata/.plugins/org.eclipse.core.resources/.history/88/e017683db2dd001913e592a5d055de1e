@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="/CurrentTime_Servlet" method="get">
+	<input type="submit" value="submit"> 
+</form>
+submit 버튼을 누르면 서버에 있는 currentTime_jsp.jsp를 찾아서 실행
+
+</body>
+</html>

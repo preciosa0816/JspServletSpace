@@ -1,0 +1,10 @@
+127.0.0.1 - - [26/Oct/2019:23:45:38 +0900] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [26/Oct/2019:23:45:40 +0900] "GET /Ch15_GuestBook/list.jsp HTTP/1.1" 500 3976
+0:0:0:0:0:0:0:1 - - [26/Oct/2019:23:56:52 +0900] "GET /Ch14_DB/viewMemberList.jsp HTTP/1.1" 200 343
+0:0:0:0:0:0:0:1 - - [26/Oct/2019:23:57:22 +0900] "GET /Ch14_DB/viewMemberList.jsp HTTP/1.1" 200 343
+0:0:0:0:0:0:0:1 - - [26/Oct/2019:23:57:55 +0900] "GET /Ch14_DB/update/updateForm.jsp HTTP/1.1" 200 460
+0:0:0:0:0:0:0:1 - - [26/Oct/2019:23:58:05 +0900] "POST /Ch14_DB/update/update.jsp HTTP/1.1" 500 4480
+0:0:0:0:0:0:0:1 - - [26/Oct/2019:23:58:26 +0900] "GET /Ch14_DB/update/updateForm.jsp HTTP/1.1" 200 460
+0:0:0:0:0:0:0:1 - - [26/Oct/2019:23:58:32 +0900] "POST /Ch14_DB/update/update.jsp HTTP/1.1" 500 4513
+0:0:0:0:0:0:0:1 - - [26/Oct/2019:23:58:53 +0900] "GET /Ch14_DB/update/updateForm.jsp HTTP/1.1" 200 460
+0:0:0:0:0:0:0:1 - - [26/Oct/2019:23:58:57 +0900] "POST /Ch14_DB/update/update.jsp HTTP/1.1" 500 4533

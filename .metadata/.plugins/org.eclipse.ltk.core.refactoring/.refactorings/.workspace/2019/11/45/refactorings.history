@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Ch20_ServletCOntextListener&apos; to &apos;Ch20_ServletContextListener&apos;" description="Rename resource &apos;Ch20_ServletCOntextListener&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Ch20_ServletCOntextListener" name="Ch20_ServletContextListener" stamp="1572962268599" updateReferences="true"/>
+</session>

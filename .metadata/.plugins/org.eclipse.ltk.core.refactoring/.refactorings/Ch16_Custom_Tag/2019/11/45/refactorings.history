@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;select.tag&apos; to &apos;tags&apos;" description="Move &apos;select.tag&apos; to &apos;tags&apos;" destination="WebContent/WEB-INF/tags" element1="WebContent/select.tag" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1572751265804" updateReferences="true"/>
+</session>

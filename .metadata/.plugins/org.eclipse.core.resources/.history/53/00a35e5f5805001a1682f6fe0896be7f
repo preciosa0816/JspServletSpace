@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" http-equiv="refresh">
+<style>
+iframe{
+	margin:20px;
+	width:300px;
+	height:400px;
+}
+td{
+	width:50px;
+	height:20px;
+	background-color:green;
+}
+
+#choice{
+width:300px;
+}
+</style>
+<title>Insert title here</title>
+</head>
+<body>
+<div id="choice">
+<iframe src="choice.jsp" height="400" width="350" name="left" onload="iRefresh()"></iframe>
+</div>
+<div>
+<table>
+	<tr>
+		<td></td>
+	</tr>
+</table>
+</div>
+<script type="text/javascript">
+function iRefresh(){  
+    choice.location.href="right.jsp";  //iframe의 경로를 입력해 준다. -->
+    } 
+ 
+</script>
+</body>
+</html>

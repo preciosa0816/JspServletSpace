@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<% 
+	pageContext.setAttribute("name", "hong");
+	
+
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+pageScope::<%=pageContext.getAttribute("name")%>			<br>
+requestScope::<%=request.getAttribute("name") %>		<br>
+sessionScope::<%=session.getAttribute("name") %>		<br>
+applicationScope::<%=application.getAttribute("name") %>		<br>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@page errorPage="/error/nonNumberError.jsp" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+	String a = request.getParameter("a");
+	request.setAttribute("a", a);
+	int A=(int)request.getAttribute("a");
+	String b = request.getParameter("a");
+	request.setAttribute("b", b);
+	int B = (int)request.getAttribute("b");
+	out.print(A+B);
+%>
+계산결과: <%=A+B %>
+</body>
+</html>

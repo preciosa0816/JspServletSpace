@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="now" method="get">
+	<input type="submit" value="submit"> 
+</form>
+submit 버튼을 누르면 서버에 있는 now를 찾아서 실행
+</body>
+</html>

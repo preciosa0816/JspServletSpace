@@ -1,0 +1,24 @@
+
+<%@page import="java.util.Calendar"%>
+<%@page import="java.text.SimpleDateFormat"%>
+<%@page import="java.util.Date"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+	Calendar c= Calendar.getInstance();
+	int day= c.get(Calendar.DAY_OF_WEEK);
+	int month=c.get(Calendar.MONTH);
+	int date= c.get(Calendar.DATE);
+	
+	
+%>
+현재시각: <%=day %>
+</body>
+</html>
